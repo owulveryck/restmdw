@@ -38,8 +38,8 @@ tosca.nodes.Compute.BACKEND1.dev:
    VMtype:
      type: string
      valid_values:
-- gold
-- silver
+       - gold
+       - silver
 ```
 
 Ce type permettra la création d’une VM en utilisant le BACKEND1 et attendra en paramètre le hostname ainsi que le type de la VM (gold ou silver) et retournera une fois terminé les adresses publiques et privées.
