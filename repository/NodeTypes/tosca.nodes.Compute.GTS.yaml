@@ -1,0 +1,18 @@
+tosca.nodes.Compute:
+  derived_from: tosca.nodes.Root
+  properties:
+    trigram:
+      description: 10) Trigramme applicatif
+      entry_schema: field_40d8a42f4ecee0fd014edd90f97a2ff4
+      type: string
+    region:
+      description: 2) Region
+      type: string
+      entry_schema: field_40d8a42f4ecee0fd014edd90f97a2ff5
+      constraints:
+        - valid_values: [ "EU France (Greater Paris)", "EU France (North)" ]
+  attributes:
+    private_address:
+      type: string
+    public_address:
+      type: string

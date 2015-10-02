@@ -1,0 +1,14 @@
+VM.dev:
+  type: Custom:OFFERINGID21143
+  description: VirtualMachine of type developpement
+  properties:
+    trigram:
+      type: string
+      description: hostname
+      default: mymachine
+      entry_schema: field_40f8a4ff4ecfe0fd014edd90f97a2ff5
+    region:
+      description: Region
+      type: string
+      default: 
+      default: EU France (Greater Paris)
