@@ -3,6 +3,7 @@ The aim of this project is to build a simple REST middleware that would take in 
 
 *Note* The following description is in french and will be translated soon
 # Schéma général de principe
+<img src="https://cloud.githubusercontent.com/assets/11583401/10247578/53a444ea-691a-11e5-86de-016857f99738.png"/>
 
 # A propos
 1 : Un middleware qui sert des API REST en HTTP. 
