@@ -1,17 +1,18 @@
 package services
 
 import (
-	"github.com/owulveryck/restmdw/core/authentication"
-	"github.com/owulveryck/toscalib"
 	"io/ioutil"
 	"log"
+
+	"github.com/owulveryck/toscalib"
 	//"github.com/owulveryck/restmdw/services/models"
 	"encoding/json"
-	"github.com/owulveryck/restmdw/settings"
-	"gopkg.in/yaml.v2"
 	"net/http"
 	"os"
 	"path/filepath"
+
+	"github.com/owulveryck/restmdw/settings"
+	"gopkg.in/yaml.v2"
 )
 
 // OfferingList parse the yaml files from the repository configuration file defined in the seettings package

@@ -2,12 +2,12 @@ package services
 
 import (
 	"encoding/json"
+	"net/http"
+
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/owulveryck/restmdw/api/parameters"
 	"github.com/owulveryck/restmdw/core/authentication"
 	"github.com/owulveryck/restmdw/services/models"
-	"log"
-	"net/http"
 )
 
 func Login(requestUser *models.User) (int, []byte) {
