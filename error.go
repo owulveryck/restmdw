@@ -1,4 +1,4 @@
-package api_automation
+package main
 
 type jsonErr struct {
 	Code int    `json:"code"`
