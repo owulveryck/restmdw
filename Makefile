@@ -1,5 +1,5 @@
 all: token hello_unauth
-install:
+install: repository/NodeTypes/*.yaml
 	mkdir -p /tmp/restmdw/repository/NodeTypes	
 	cp repository/NodeTypes/* /tmp/restmdw/repository/NodeTypes
 run:

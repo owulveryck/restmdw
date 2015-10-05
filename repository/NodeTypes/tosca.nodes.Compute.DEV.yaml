@@ -2,11 +2,11 @@ tosca.nodes.Compute.DEV:
   derived_from: tosca.nodes.Root
   properties:
     trigram:
-      description: 10) Trigramme applicatif
+      description: hostname
       entry_schema: field_40d8a42f4ecee0fd014edd90f97a2ff4
       type: string
     region:
-      description: 2) Region
+      description: Region
       type: string
       entry_schema: field_40d8a42f4ecee0fd014edd90f97a2ff5
       constraints:
