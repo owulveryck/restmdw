@@ -11,7 +11,7 @@ import (
 )
 
 // List all the available requests
-func RequestsList(w http.ResponseWriter, r *http.Request) {
+func RequestListController(w http.ResponseWriter, r *http.Request, next http.HandlerFunc) {
 	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
 	w.WriteHeader(http.StatusOK)
 	//if err := json.NewEncoder(w).Encode(todos); err != nil {
@@ -20,7 +20,7 @@ func RequestsList(w http.ResponseWriter, r *http.Request) {
 }
 
 // RequestShow display the request referenced by requestId
-func RequestShow(w http.ResponseWriter, r *http.Request) {
+func RequestShowController(w http.ResponseWriter, r *http.Request, next http.HandlerFunc) {
 	/*
 		vars := mux.Vars(r)
 		var requestId int
