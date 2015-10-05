@@ -1,4 +1,4 @@
-tosca.nodes.Compute:
+tosca.nodes.Compute.DEV:
   derived_from: tosca.nodes.Root
   properties:
     trigram:
