@@ -1,7 +1,7 @@
 {
     "apiVersion": "",
     "swaggerVersion": "1.2",
-    "basePath": "{{.}}",
+    "basePath": "/apidoc",
     "apis": [
         {
             "path": "/hello",
