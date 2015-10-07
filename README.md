@@ -55,3 +55,13 @@ L’identifiant unique d’execution du backend (généré par le backend lui m�
 # Intérrogation de l’état de la requète
 Lors d’une appel GET /request/requestID, le middleware effectue la même communication via le driver pour mettre à jour l’état de la base de donnée.
 Si la requête prend plus longtemps qu’un temps donné, l’état retourné est celui de la base de donnée.
+
+
+# API documentation
+The API documentation can be generated via a [go-swaggerLite]() command:
+
+```
+go-swaggerLite -apiPackage="github.com/owulveryck/restmdw/controllers" \
+    -mainApiFile="github.com/owulveryck/restmdw/server.go" \
+      -basePath="http://127.0.0.1:3000"
+```
