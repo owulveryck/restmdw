@@ -19,3 +19,6 @@ tests/flags/token.json: core/authentication/*.go core/authentication/module/samp
 
 token: tests/flags/token.json
 
+doc:
+	swagger  -apiPackage="github.com/owulveryck/restmdw/controllers" -mainApiFile="github.com/owulveryck/restmdw/server.go" -output api/doc
+
