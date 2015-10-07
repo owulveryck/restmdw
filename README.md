@@ -58,10 +58,4 @@ Si la requête prend plus longtemps qu’un temps donné, l’état retourné es
 
 
 # API documentation
-The API documentation can be generated via a [go-swaggerLite]() command:
-
-```
-go-swaggerLite -apiPackage="github.com/owulveryck/restmdw/controllers" \
-    -mainApiFile="github.com/owulveryck/restmdw/server.go" \
-      -basePath="http://127.0.0.1:3000"
-```
+The API documentation can be generated via a [swagger](https://github.com/yvasiyarov/swagger) (see [Makefile](Makefile))
